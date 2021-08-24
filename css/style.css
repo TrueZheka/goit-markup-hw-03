@@ -12,7 +12,22 @@ body {
   color: var(--first-text-color);
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+}
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 .link {
@@ -70,6 +85,8 @@ body {
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--white-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -85,6 +102,8 @@ body {
   line-height: 1.87;
   cursor: pointer;
   letter-spacing: 0.06em;
+  
+
 }
 /*--------button portfolio---------*/
 .button {
