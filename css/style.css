@@ -4,17 +4,24 @@
   --akcent-text-color: #2196f3;
   --white-text-color: #ffffff;
   --address-text-color: rgba(255, 255, 255, 0, 6);
+  --section-padding: 94px;
+  --card-set-gap: 30px;
+}
+/* -------Ресет стилей------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--first-text-color);
+  background-color: var(--white-text-color);
 }
 
-body {
-  font-family: Roboto, sans-serif;
-  background-color: #ffffff;
-  color: var(--first-text-color);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-}
 /* -------Паддинги для секций------- */
 .section {
   padding-top: var(--section-padding);
@@ -47,28 +54,6 @@ body {
   overflow: hidden;
 }
 
-/* -------Контейнер для секций------- */
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
 a {
   text-decoration: none;
 }
@@ -167,18 +152,20 @@ a {
   margin-right: 50px;
 }
 /*---------GEROY----------------------*/
-
 .hero {
-  background-color: #2f303a;
-  align-items: center;
+  text-align: center;
+  background: var(--second-text-color);
 }
+
 .hero > .container {
   padding-top: calc(200px - var(--section-padding));
   padding-bottom: calc(200px - var(--section-padding));
 }
+
 .hero-title {
   margin-bottom: 30px;
   width: 696px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -186,6 +173,7 @@ a {
   text-transform: uppercase;
   color: #ffffff;
 }
+
 .hero-button {
   margin: 0 auto;
   min-width: 200px;
@@ -202,10 +190,12 @@ a {
   border-radius: 4px;
   cursor: pointer;
 }
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: #188ce8;
 }
+
 /*--------------Предложения------*/
 .features {
   padding-bottom: 0;
@@ -231,6 +221,7 @@ a {
   color: var(--second-text-color);
 }
 .features-item-text {
+  color: var(--first-text-color);
   width: 270px;
   font-size: 14px;
   line-height: 1.71;
