@@ -16,7 +16,7 @@
   padding-left: 0;
   padding-right: 0;
 }
-.body {
+body {
   font-family: 'Roboto', sans-serif;
   color: var(--first-text-color);
   background-color: var(--white-text-color);
@@ -35,7 +35,7 @@
   padding: 0 15px;
 }
 
-.img {
+img {
   display: block;
   max-width: 100%;
   height: auto;
