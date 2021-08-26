@@ -253,7 +253,7 @@ a {
 
 /*--------TEAM---------------------*/
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--secondary-bg-color);
 }
 
 .team-list {
@@ -268,7 +268,7 @@ a {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--second-text-color);
+  color: var(--secondary-text-color);
 }
 
 .team-item {
@@ -296,7 +296,7 @@ a {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--second-text-color);
+  color: var(--secondary-text-color);
 }
 
 .team-item-text {
